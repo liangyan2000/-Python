@@ -1,5 +1,8 @@
 # 剧本杀搜线索程序-Python
 # 剧本杀《暗影计划》六人公开本，普通线索1*6，深入调查线索1*6，密令6
+# 起始每人5个AP（action points),每个普通线索消耗1AP，每个深入调查线索消耗2AP。
+# 每条密令需要正确的两个人选同时到场且输入正确密令，密令揭示后两人各增加2AP。
+# 每个人有三次密令机会，最多得到两条密令，即增加4AP。
 
 from textwrap import dedent
 from sys import exit
